@@ -35,7 +35,7 @@ public class SendCommand {
 
 		//Create the device object and establish a NETCONF session
 		System.out.println("Creating device");
-		Device device = new Device("192.168.106.4", "noradius", "X0admin!", null);
+		Device device = new Device("host-ip", "login", "pass", null);
 		System.out.println("Connecting");
 		device.connect();
 		System.out.println("Executing RPC");
