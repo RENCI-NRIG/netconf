@@ -401,13 +401,9 @@ public class Device {
             connectionOpen = true;
         }
         try {
-        	System.out.println("Opening session");
             normalSession = NetconfConn.openSession();
-            System.out.println("Starting subsystem");
             normalSession.startSubSystem("netconf");
-            System.out.println("Starting session");
             netconfSess = new NetconfSession(normalSession, helloRpc, builder);
-            System.out.println("Ready");
         } catch (IOException e) {
             throw new NetconfException("Failed to create Netconf session:" + 
                     e.getMessage());
