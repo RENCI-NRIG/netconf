@@ -174,7 +174,6 @@ public class NetconfSession {
         rpc.append("</get-config>");
         rpc.append("</rpc>");
         rpc.append(NETCONF_END);
-        System.out.println("Sending RPC " + rpc.toString());
         String rpcReply = getRpcReply(rpc.toString());
         lastRpcReply = rpcReply;
         return lastRpcReply;
