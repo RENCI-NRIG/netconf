@@ -25,17 +25,17 @@
 		<orca.snap.repository.url>http://ci-dev.renci.org/nexus/content/repositories/geni-orca-snapshot/</orca.snap.repository.url>
 	</properties>
 	<issueManagement>
-		<system>Trac</system>
-		<url>http://geni-orca.renci.org/trac</url>
+		<system>GitHub</system>
+		<url>https://github.com/RENCI-NRIG/netconf</url>
 	</issueManagement>
 	<ciManagement>
-		<system>Hudson</system>
-		<url>https://ci-dev.renci.org</url>
+		<system>Jenkins</system>
+		<url>https://ci.exogeni.net</url>
 	</ciManagement>
 	<scm>
-		<connection>scm:svn:https://geni-orca.renci.org/svn/orca-external/netconf/trunk</connection>
-		<developerConnection>scm:svn:https://geni-orca.renci.org/svn/orca-external/netconf/trunk</developerConnection>
-		<url>https://geni-orca.renci.org/svn/orca-external/ndl-conversion</url>
+		<connection>scm:git:https://github.com/RENCI-NRIG/netconf.git</connection>
+		<developerConnection>scm:git:https://github.com/RENCI-NRIG/netconf.git</developerConnection>
+		<url>https://github.com/RENCI-NRIG/netconf</url>
 	</scm>
 	<organization>
 		<name>RENCI (Renaissance Computing Institute)</name>
